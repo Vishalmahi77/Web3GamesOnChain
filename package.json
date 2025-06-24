@@ -5,6 +5,7 @@
   "author": "henryliu",
   "license": "GPL3",
   "scripts": {
+    "dev": "next dev",
     "start": "concurrently \"node server/server.js\" \"next --port 3002\"",
     "build": "concurrently \"node server/server.js\" \"next build\"",
     "test": "concurrently \"node server/server.js\" \"next test\"",
